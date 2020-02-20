@@ -1,0 +1,122 @@
+/* Tutti i blocchi hanno stessi margini sia a destra sia a sinistra */
+
+/* Regole Generali */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.marginilaterali{
+  margin: 0 65px;
+}
+/* Fine Regole Generali */
+
+/* Inizio header e nav */
+#navfixed{
+  background-color: #F5F8FA;
+  height: 100px;
+}
+
+#secondonav{
+  background-color: white;
+  height: 100px;
+  /* DEBUG: Inizio */
+  border-bottom: 1px solid lightblue;
+  /* DEBUG: Fine */
+}
+/* Fine header e nav */
+
+/*Inizio primo blocco */
+
+.primoblocco{
+  background-color: #FFF2ED;
+  /* DEBUG: Inizio */
+  height: 100px;
+  /* DEBUG: Fine */
+}
+
+/* Fine primo blocco */
+
+/* Inizio secondo blocco */
+
+.secondoblocco{
+  /* DEBUG: Inizio */
+  height: 100px;
+  background-color: lightgreen;
+  /* DEBUG: Fine */
+}
+
+/* Fine secondo blocco */
+
+/* Inizio terzo blocco */
+
+.terzoblocco{
+  /* DEBUG: Inizio */
+  height: 100px;
+  background-color: lightyellow;
+  /* DEBUG: Fine */
+}
+
+/* Fine terzo blocco */
+
+/* Inizio quarto blocco */
+
+.quartoblocco{
+  /* DEBUG: Inizio */
+  height: 100px;
+  background-color: lightgreen;
+  /* DEBUG: Fine */
+}
+/* Fine quarto blocco */
+
+/* Inizio quinto blocco */
+
+.quintoblocco{
+  /* DEBUG: Inizio */
+  height: 100px;
+  background-color: lightyellow;
+  /* DEBUG: Fine */
+}
+
+/* fine quinto blocco */
+
+/* Inizio sesto blocco */
+
+.sestoblocco{
+  /* DEBUG: Inizio */
+  height: 100px;
+  background-color: lightgreen;
+  /* DEBUG: Fine */
+}
+
+/* Fine sesto blocco */
+
+/* Inizio settimo blocco */
+
+.settimoblocco{
+  /* DEBUG: Inizio */
+  height: 100px;
+  background-color: lightyellow;
+  /* DEBUG: Fine */
+}
+
+/* Fine settimo blocco */
+
+/* Inizio footer */
+
+footer{
+  /* DEBUG: Inizio */
+  height: 200px;
+  background-color: blue;
+  /* DEBUG: Fine */
+}
+
+/* Fine footer */
