@@ -215,22 +215,197 @@ display: inline-block;
 /* Inizio terzo blocco */
 
 .terzoblocco{
-  /* DEBUG: Inizio */
-  height: 100px;
-  background-color: lightyellow;
-  /* DEBUG: Fine */
+
+  background-color: #F5F8FA;
 }
 
+.containerblocco3{
+    background-color: white;
+    border-radius: 4px;
+    margin: 0 130px;
+    padding: 40px 0;
+    margin-bottom: 100px;
+
+
+}
+.divcontainer1{
+  width: 30%;
+  float: left;
+  text-align: center;
+  padding-left: 20px;
+
+}
+
+.divcontainer1 img{
+  width: 70%;
+  height: auto;
+}
+
+.divcontainer1 a{
+text-decoration: none;
+color: white;
+padding: 12px 20px;
+background-color: #FF7346;
+border-radius: 4px;
+font-size: 16px;
+font-weight: bold;
+display: inline-block;
+}
+
+.divcontainer1 a:hover{
+  background-color: rgba(236, 161, 126, 0.72);
+}
+
+.divcontainer2{
+  width: 70%;
+  float: left;
+  padding: 0 20px;
+}
+
+.divcontainer2 h3{
+  font-size: 24px;
+  color: #36425C;
+  padding-bottom: 10px;
+}
+
+.divcontainer2 p{
+  line-height: 26px;
+  padding-bottom: 10px;
+}
+
+.divcontainer2 h4{
+  color: #36425C;
+  padding-bottom: 20px;
+}
+.divcontainer2 span{
+  color: #36425C;
+  padding: 0 10px;
+  display: inline-block;
+}
+
+.fa-check-circle{
+color: #FF6C27;
+padding:
+}
 /* Fine terzo blocco */
 
 /* Inizio quarto blocco */
 
 .quartoblocco{
-  /* DEBUG: Inizio */
-  height: 100px;
-  background-color: lightgreen;
-  /* DEBUG: Fine */
+  background-color: #F5F8FA;
+  padding-bottom: 70px;
+
+  }
+
+.containerblocco4{
+  background-color: #F5F8FA;
+  margin: 0 130px;
 }
+
+.blocco4div1{
+background-color: white;
+width: 30%;
+float: left;
+text-align: center;
+padding: 10px 30px;
+border-radius: 8px;
+}
+
+.contenutodiv1blocco4 h4{
+color: #36425C;
+font-size: 24px;
+padding: 10px 0;
+
+}
+
+.contenutodiv1blocco4 p{
+padding: 14px 0;
+line-height: 20px;
+text-align: left;
+
+}
+
+.blocco4div1 hr{
+  width: 90%;
+  color: lightgrey;
+}
+
+
+.quartoblocco img{
+  width: 50%;
+  height: auto;
+}
+
+.contenutodiv2blocco4 h5{
+  padding: 20px 0;
+  color: #36425C;
+
+}
+
+.contenutodiv2blocco4 p{
+  text-align: left;
+  line-height: 30px;
+
+}
+
+.contenutodiv2blocco4 a{
+  text-decoration: none;
+  color: white;
+  padding: 12px 26px;
+  background-color: #FF7346;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 20px 0;
+
+}
+
+.contenutodiv2blocco4 a:hover{
+  background-color: rgba(236, 161, 126, 0.72);
+}
+
+.blocco4div2{
+background-color: white;
+width: 30%;
+float: left;
+text-align: center;
+padding: 10px 30px;
+border-radius: 8px;
+margin: 0 54px;
+}
+
+.blocco4div2 hr{
+  width: 90%;
+  color: lightgrey;
+}
+
+.blocco4div2 img{
+  width: 62%;
+  height: auto;
+
+}
+
+.blocco4div3{
+background-color: white;
+width: 30%;
+float: left;
+text-align: center;
+padding: 10px 30px;
+border-radius: 8px;
+}
+
+.blocco4div3 img{
+  width: 45%;
+  height: auto;
+
+}
+
+.blocco4div3 hr{
+  width: 90%;
+  color: lightgrey;
+}
+
 /* Fine quarto blocco */
 
 /* Inizio quinto blocco */
