@@ -87,7 +87,6 @@ padding: 14px 26px;
 .bottone2:hover{
   background-color: rgba(255, 255, 255, 0.4);
 }
-
 /* Fine primo nav */
 
 #secondonav{
@@ -442,10 +441,6 @@ border-radius: 8px;
   color:white;
 }
 
-.fas{
-  font-size: 34px;
-}
-
 .tab1{
   float: left;
   width: 25%;
@@ -488,9 +483,44 @@ padding-top: 20px;
 /* Inizio sesto blocco */
 
 .sestoblocco{
-  /* DEBUG: Inizio */
-  height: 100px;
-  background-color: lightgreen;  /* DEBUG: Fine */
+  padding: 120px 0;
+  background-color: white;
+}
+
+.containerblocco6{
+margin: 0 130px;
+
+}
+
+.blocco6div1{
+  width: 30%;
+  height: auto;
+  float: left;
+}
+
+.blocco6div1 h3{
+  color: #36425C;
+  font-size: 46px;
+  padding-bottom: 10px;
+}
+
+.blocco6div1 p{
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.blocco6div2{
+  float: left;
+  width: 70%;
+  height: auto;
+  text-align: right;
+}
+
+.blocco6div2 img{
+  width: 20%;
+  height: auto;
+  padding: 20px;
+
 }
 
 /* Fine sesto blocco */
@@ -498,11 +528,65 @@ padding-top: 20px;
 /* Inizio settimo blocco */
 
 .settimoblocco{
-  /* DEBUG: Inizio */
-  height: 100px;
-  background-color: lightyellow;
-  /* DEBUG: Fine */
+  padding: 100px 0;
+  background-color: white;
 }
+
+.containerblocco7{
+  margin: 0 130px;
+}
+
+.div1blocco7{
+width: 50%;
+float: left;
+
+}
+
+.div1blocco7 h3 {
+  color: #36425C;
+  font-size: 40px;
+  padding-bottom: 20px;
+
+}
+
+.div1blocco7 p{
+  font-size: 20px;
+  line-height: 28px;
+  padding-bottom: 26px;
+}
+
+.div1blocco7 a{
+  text-decoration: none;
+  color: white;
+  padding: 12px 26px;
+  background-color: #FF7346;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 10px;
+
+}
+
+.div1blocco7 a:hover{
+  background-color: rgba(236, 161, 126, 0.72);
+}
+
+#stilep{
+  font-size: 16px;
+}
+
+.div2blocco7{
+width: 50%;
+float: right;
+text-align: right;
+
+}
+
+.div2blocco7 img{
+width: 60%;
+}
+
 
 /* Fine settimo blocco */
 
